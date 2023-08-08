@@ -229,6 +229,11 @@ class Jwt_Auth_Public {
 			return $user;
 		}
 
+		//if basic auth is set do not try to validate jwt token
+		if (isset($_SERVER['PHP_AUTH_USER']) &&isset($_SERVER['PHP_AUTH_PW'])){
+			return $user;
+		}
+
 		/*
 		 * Check the token from the headers.
 		 */
