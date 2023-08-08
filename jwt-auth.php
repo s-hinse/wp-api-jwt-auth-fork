@@ -12,11 +12,11 @@
  * @since             1.0.0
  *
  * @wordpress-plugin
- * Plugin Name:       JWT Authentication for WP-API
+ * Plugin Name:       JWT Authentication for WP-API forked
  * Plugin URI:        https://enriquechavez.co
  * Description:       Extends the WP REST API using JSON Web Tokens Authentication as an authentication method.
- * Version:           1.3.2
- * Author:            Enrique Chavez
+ * Version:           1.3.3
+ * Author:            Enrique Chavez, Sven Hinse
  * Author URI:        https://enriquechavez.co
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
